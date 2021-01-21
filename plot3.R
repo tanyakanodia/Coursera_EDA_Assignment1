@@ -1,4 +1,4 @@
-setwd("C:/Users/Tanki/Desktop/assignment/Coursera_EDA_Assignmnt1")
+setwd("C:/Users/Tanki/Documents/data/exdata_data_household_power_consumption")
 data_f<- read.table("household_power_consumption.txt", header=TRUE, sep=";", stringsAsFactors=FALSE, dec=".", na.string = "?")
 data<- data_f[data_f$Date %in% c("1/2/2007","2/2/2007") ,]
 #converting time
